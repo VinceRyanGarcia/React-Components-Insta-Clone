@@ -1,3 +1,4 @@
+  
 // You do not need to change any code in this file for MVP
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -15,6 +16,7 @@ const SearchBar = (props) => {
         <input
           type="text"
           placeholder="Search"
+          onChange={ props.onChange }
         />
       </form>
       <div className="social-wrapper">
